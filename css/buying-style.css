@@ -1,0 +1,68 @@
+.products-container{
+    margin-top: 120px;
+    padding: 10px 5%;
+}
+.card{
+    width: 310px;
+    
+    background-color: white;
+    box-shadow: 0 10px 20px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.card img{
+    height: 250px;
+    width: 100%;
+}
+.type{
+    padding: 5px 20px;
+    opacity: 0.7;
+}
+.name{
+    font-weight: 900;
+    font-size: 21px;
+    padding: 0px 20px;
+    color: black;
+
+}
+.box-price{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 8px 20px;
+    align-items: center;
+}
+.price{
+    color:red;
+    font-size: 20px;
+}
+
+.but{
+    color:black;
+    
+    padding:8px 8px;
+
+    border-radius: 15px;
+}
+.but:hover{
+    background-color:red;
+    font-size: 18px;
+}
+.add-chart{
+    display: flex;
+    
+    justify-content: first baseline;
+    padding: 0 10px;
+}
+.add-chart button{
+     padding: 8px 8px;
+border-radius: 15px;
+font-size: 18px;
+background-color: pink;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

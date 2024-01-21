@@ -1,0 +1,80 @@
+*{
+    background-image: url("pictures\back acount.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.container{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+   
+    
+    position: absolute;
+}
+.form-box{
+    background-color: white;
+    width:380px;
+    height:480px;
+    position:relative ;
+border: 1px solid black;
+margin: 6% auto;
+padding: 5px;
+border-radius: 40px;
+
+}
+.button-box{
+    background-color: pink;
+    box-shadow: 0 0 20px pink;
+    padding: 8px;
+    
+    height: ;
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.int-button{
+    
+    padding:10px 30px;
+    border:0;
+    background: transparent;
+    border-radius: 20px;
+    outline: none;
+    position: relative;
+}
+.int-button:hover{
+    background-color:bisque;
+}
+
+.input-group{
+    top:180px;
+    position:absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field{
+    box-shadow: 0 0 30px pink;
+    width: 100%;
+    padding: 15px 0;
+    margin-left: 50px;
+    margin-top: 20px ;
+    border-radius: 10px;
+    border: color(from color srgb r g b);
+}
+.submit-box{
+    width: 80%;
+    padding:15px 0;
+    margin-top: 20px ;
+    border-radius: 30px;
+    box-shadow: 0 0 30px pink;
+    margin-left: 75px;
+    background-color: pink;
+
+}
+.check-box{
+    margin-left:90px ;
+    margin-top: 10px;
+    background-color: black;
+}

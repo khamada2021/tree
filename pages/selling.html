@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main-style.css" rel="stylesheet">
+    <link href="selling-style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;1,100;1,700&display=swap"
+        rel="stylesheet">
+    <link href="basket-style.css" rel="stylesheet">
+    <title>yemen craft</title>
+</head>
+
+
+<body>
+<div>
+    <header>
+        <a href="#" calss="logo"><img src="pictures\the logo.svg.svg" width="70"></a>
+        <ul class="navmenu">
+            <li><a href="http://127.0.0.1:5500/index.html#">home</a></li>
+            <li><a href="http://127.0.0.1:5500/selling.html#">sell</a></li>
+            <li><a href="http://127.0.0.1:5500/index.html#">buy</a></li>
+            <li><a href="http://127.0.0.1:5500/buying.html#">latest</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><img src="pictures\search.svg"></a>
+            <a href="http://127.0.0.1:5500/acount.html?"><img src="pictures\person-circle (1).svg"></a>
+
+            <a href="#"><img src="pictures\heart-fill.svg"></a>
+            <a href="http://127.0.0.1:5500/basket.html"><img src="pictures\cart-fill.svg"></a>
+            <div class="icon-menu"><a href="#"><img src="pictures/list.svg"></a></div>
+        </div>
+    </header>
+</div>
+
+
+
+    <section class="sell-section">
+        <div class="sell-container">
+            <h2>Sell Your Product</h2>
+            <p>Fill in the details below to list your product for sale.</p>
+
+            <form action="#" method="post" class="sell-form" enctype="multipart/form-data">
+                <label for="productName">Product Name:</label>
+                <input type="text" id="productName" name="productName" required>
+
+                <label for="productCategory">Category:</label>
+                <select id="productCategory" name="productCategory" required>
+                    <option value="clothes">Clothes</option>
+                    <option value="jewelry">Jewelry</option>
+                    <option value="arts">Arts</option>
+                    <option value="other">Other</option>
+                    <option value="food">Food</option>
+                </select>
+
+                <label for="productDescription">Product Description:</label>
+                <textarea id="productDescription" name="productDescription" rows="4" required></textarea>
+
+                <label for="productPrice">Price:</label>
+                <input type="number" id="productPrice" name="productPrice" required>
+
+                <label for="productImage">Product Image:</label>
+                <input type="file" id="productImages" name="productImages[]" accept="image/*" multiple required>
+
+                <button type="submit">List Product</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    </div>
+    <section class="footer">
+        <div class="footer-container">
+            <div class="one-footer">
+                <a><img src="pictures\the logo.svg.svg" width="70"></a>
+                <p>Sanaa ,Wembely Street </p>
+                <p>Yemencraft@mail.com</p>
+                <div class="socailicon">
+                    <a><img src="pictures\youtube.svg"></a>
+                    <a><img src="pictures/whatsapp.svg"></a>
+                    <a><img src="pictures/facebook.svg"></a>
+                    <a><img src="pictures/messenger.svg"></a>
+                    <a><img src="pictures\instagram.svg"></a>
+                </div>
+            </div>
+            <div class="two-footer">
+                <h2>Support</h2>
+                <p>About us</p>
+                <p>Contact us</p>
+                <p>Hot line</p>
+                <p>More Information</p>
+            </div>
+
+            <div class="three-footer">
+                <h2>Shop</h2>
+                <p>men</p>
+                <p>women</p>
+                <p>kids</p>
+                <p>home needs</p>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

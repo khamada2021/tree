@@ -1,0 +1,102 @@
+* {
+    background-image: url("pictures\back acount.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.container {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.form-box {
+    
+background-color: pink;
+    width: 380px;
+    height: 480px;
+    position: relative;
+    border: 1px solid black;
+    margin: 6% auto;
+    padding: 5px;
+    border-radius: 40px;
+    margin-top: 0px;
+
+}
+
+.registration {
+    display: inline-block;
+    background-color:pink;
+   display: flex;
+   justify-content: center;
+   width: 90%;
+  
+   height: 8%;
+   border-radius: 20px;
+margin-left: 20px;
+}
+.rej-text{
+    border-radius: 20px;
+ 
+    
+    align-items: center;
+  padding: 10px;
+}
+
+
+.int-button {
+
+    padding: 10px 30px;
+    border: 0;
+    background: transparent;
+    border-radius: 20px;
+    outline: none;
+    position: relative;
+}
+
+
+
+.input-group {
+
+    top: 40px;
+    position: absolute;
+    width: 280px;
+
+}
+
+.input-field {
+    box-shadow: 0 0 30px pink;
+    width: 100%;
+    padding: 10px 0;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border:none;
+    border: color(from color srgb r g b);
+}
+
+
+
+.check-box{
+
+    margin-left: 55PX;
+    margin-top: 10PX;
+}
+.check-box a{
+    text-decoration: none;
+}
+.submit-box {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: white;
+
+}
+.submit-box a{
+    text-decoration: none;
+}
